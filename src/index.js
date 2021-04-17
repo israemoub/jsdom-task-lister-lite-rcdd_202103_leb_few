@@ -1,5 +1,5 @@
 
-document.getElementById('create-task-form').addEventListener("DOMContentLoaded", (event) => {
+document.addEventListener("DOMContentLoaded", (event) => {
   // your code here
   
   event.preventDefault()
