@@ -1,5 +1,5 @@
 
-document.get
+document.getElementById.addEventListener("DOMContentLoaded", () => {
   // your code here
   
   $("#create-task-form").submit(function(e){
