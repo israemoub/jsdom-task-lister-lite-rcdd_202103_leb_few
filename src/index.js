@@ -1,8 +1,8 @@
 
-document.getElementById('create-task-form').addEventListener("DOMContentLoaded", () => {
+document.getElementById('create-task-form').addEventListener("DOMContentLoaded", (event) => {
   // your code here
   
-  $("#create-task-form").submit(function(e){
+  event.submit(function(e){
     e.preventDefault();
   });
   
